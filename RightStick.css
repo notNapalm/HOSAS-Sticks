@@ -90,35 +90,3 @@
     display: none
 }
 
-.custom .bumpers{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.custom .abxy{
-    position: absolute;
-    width: 100%;
-    top: 0;
-}
-
-/* FA Button */
-.custom .bumper.right:after{
-    content: "FA";
-    left: 68px;
-    top: 45px;
-    word-wrap: normal;
-    width: 49px;
-    transition: none
-}
-/* FA Button when set to off */
-.custom .bumper.right.pressed:after{
-    content: "FA OFF";
-}
-
-/*Chaff Button*/
-.custom .button.y:after{
-    content: "CHAFF";
-    right: 80px;
-    top: 0px
-}
