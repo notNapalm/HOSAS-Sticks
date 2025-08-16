@@ -125,32 +125,9 @@
     left: 0;
 }
 
-.custom .abxy{
-    position: absolute;
-    width: 100%;
-    top: 0;
-}
-
 .custom .bumper.left:after{
     content: "BOOST";
     left: 68px;
 }
 
-.custom .button.a:after{
-    content: "ECM";
-    right: 0;
-    width: 51px;
-}
 
-.custom .button.b:after{
-    content: "SHIELD";
-    right: 0;
-    top: 45px;
-}
-
-.custom .button.x:after{
-    content: "HEAT";
-    right: 80px;
-    top: 45px;
-    width: 47px
-}
